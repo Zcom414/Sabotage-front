@@ -1,0 +1,8 @@
+@keyframes bounce {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+}
+
+.hover:bounce {
+  animation: bounce 0.5s ease infinite;
+}
